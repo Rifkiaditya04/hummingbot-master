@@ -1,0 +1,167 @@
+{
+  "purpose": "Offline event-price pairing only; no strategy entry or exit simulation is performed.",
+  "funding_records": 7305,
+  "first_funding_time_utc": "2020-01-01 00:00:00+00:00",
+  "last_funding_time_utc": "2026-08-31 16:00:00.001000+00:00",
+  "complete_for_execution": 7274,
+  "censored_for_missing_price_data": 31,
+  "censored_event_samples": [
+    {
+      "funding_time_utc": "2020-02-19 16:00:00+00:00",
+      "spot_open_at_funding": NaN,
+      "mark_open_at_funding": 10121.85452904,
+      "spot_open_after_funding": NaN,
+      "futures_open_after_funding": 10116.63
+    },
+    {
+      "funding_time_utc": "2020-12-21 16:00:00+00:00",
+      "spot_open_at_funding": NaN,
+      "mark_open_at_funding": 23097.34180802,
+      "spot_open_after_funding": NaN,
+      "futures_open_after_funding": 23051.99
+    },
+    {
+      "funding_time_utc": "2021-04-25 08:00:00.010000+00:00",
+      "spot_open_at_funding": NaN,
+      "mark_open_at_funding": 49684.57711411,
+      "spot_open_after_funding": NaN,
+      "futures_open_after_funding": 49734.38
+    },
+    {
+      "funding_time_utc": "2021-07-01 00:00:00+00:00",
+      "spot_open_at_funding": 35045.0,
+      "mark_open_at_funding": NaN,
+      "spot_open_after_funding": 34975.37,
+      "futures_open_after_funding": 34965.0
+    },
+    {
+      "funding_time_utc": "2021-07-01 08:00:00.004000+00:00",
+      "spot_open_at_funding": 33350.0,
+      "mark_open_at_funding": NaN,
+      "spot_open_after_funding": 33399.17,
+      "futures_open_after_funding": 33396.0
+    },
+    {
+      "funding_time_utc": "2021-07-01 16:00:00.028000+00:00",
+      "spot_open_at_funding": 33432.54,
+      "mark_open_at_funding": NaN,
+      "spot_open_after_funding": 33507.85,
+      "futures_open_after_funding": 33490.79
+    },
+    {
+      "funding_time_utc": "2021-07-24 00:00:00+00:00",
+      "spot_open_at_funding": 33634.1,
+      "mark_open_at_funding": NaN,
+      "spot_open_after_funding": 33685.07,
+      "futures_open_after_funding": 33678.0
+    },
+    {
+      "funding_time_utc": "2021-07-24 08:00:00.002000+00:00",
+      "spot_open_at_funding": 33806.49,
+      "mark_open_at_funding": NaN,
+      "spot_open_after_funding": 33795.89,
+      "futures_open_after_funding": 33784.39
+    },
+    {
+      "funding_time_utc": "2021-07-24 16:00:00.001000+00:00",
+      "spot_open_at_funding": 33847.51,
+      "mark_open_at_funding": NaN,
+      "spot_open_after_funding": 33848.81,
+      "futures_open_after_funding": 33827.41
+    },
+    {
+      "funding_time_utc": "2021-07-25 00:00:00.003000+00:00",
+      "spot_open_at_funding": 34261.51,
+      "mark_open_at_funding": NaN,
+      "spot_open_after_funding": 34242.88,
+      "futures_open_after_funding": 34209.31
+    },
+    {
+      "funding_time_utc": "2021-07-25 08:00:00.015000+00:00",
+      "spot_open_at_funding": 34695.51,
+      "mark_open_at_funding": NaN,
+      "spot_open_after_funding": 34696.39,
+      "futures_open_after_funding": 34665.93
+    },
+    {
+      "funding_time_utc": "2021-07-25 16:00:00+00:00",
+      "spot_open_at_funding": 34174.08,
+      "mark_open_at_funding": NaN,
+      "spot_open_after_funding": 34151.78,
+      "futures_open_after_funding": 34122.77
+    },
+    {
+      "funding_time_utc": "2021-07-26 00:00:00+00:00",
+      "spot_open_at_funding": 35381.02,
+      "mark_open_at_funding": NaN,
+      "spot_open_after_funding": 35330.61,
+      "futures_open_after_funding": 35303.99
+    },
+    {
+      "funding_time_utc": "2021-07-26 08:00:00+00:00",
+      "spot_open_at_funding": 38149.99,
+      "mark_open_at_funding": NaN,
+      "spot_open_after_funding": 38187.05,
+      "futures_open_after_funding": 38201.43
+    },
+    {
+      "funding_time_utc": "2021-07-26 16:00:00+00:00",
+      "spot_open_at_funding": 38562.21,
+      "mark_open_at_funding": NaN,
+      "spot_open_after_funding": 38637.95,
+      "futures_open_after_funding": 38619.87
+    },
+    {
+      "funding_time_utc": "2021-07-27 00:00:00.046000+00:00",
+      "spot_open_at_funding": 37241.33,
+      "mark_open_at_funding": NaN,
+      "spot_open_after_funding": 37265.82,
+      "futures_open_after_funding": 37243.66
+    },
+    {
+      "funding_time_utc": "2021-07-27 08:00:00.014000+00:00",
+      "spot_open_at_funding": 37115.1,
+      "mark_open_at_funding": NaN,
+      "spot_open_after_funding": 37127.59,
+      "futures_open_after_funding": 37122.17
+    },
+    {
+      "funding_time_utc": "2021-07-27 16:00:00.007000+00:00",
+      "spot_open_at_funding": 38209.58,
+      "mark_open_at_funding": NaN,
+      "spot_open_after_funding": 38252.46,
+      "futures_open_after_funding": 38250.98
+    },
+    {
+      "funding_time_utc": "2021-09-29 08:00:00.002000+00:00",
+      "spot_open_at_funding": NaN,
+      "mark_open_at_funding": 42435.06785071,
+      "spot_open_after_funding": NaN,
+      "futures_open_after_funding": 42390.98
+    },
+    {
+      "funding_time_utc": "2022-07-31 00:00:00.022000+00:00",
+      "spot_open_at_funding": 23644.64,
+      "mark_open_at_funding": NaN,
+      "spot_open_after_funding": 23635.77,
+      "futures_open_after_funding": 23624.3
+    }
+  ],
+  "price_timestamp_units_by_archive_count": {
+    "spot": {
+      "milliseconds": 60,
+      "microseconds": 20
+    },
+    "futures": {
+      "milliseconds": 80
+    },
+    "mark": {
+      "milliseconds": 80
+    }
+  },
+  "price_rules": {
+    "funding_mark_proxy": "mark 1m open on the minute containing fundingTime",
+    "spot_mark_basis": "spot 1m open on the minute containing fundingTime",
+    "execution_prices": "spot and futures 1m open on the first minute beginning after fundingTime"
+  }
+}

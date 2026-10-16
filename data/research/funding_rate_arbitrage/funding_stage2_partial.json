@@ -1,0 +1,74 @@
+{
+  "all_available": {
+    "records": 7305,
+    "positive_rate_pct": 85.88637919233402,
+    "negative_rate_pct": 14.113620807665983,
+    "zero_rate_pct": 0.0,
+    "apr_percentiles_pct": {
+      "0.25": 2.948835,
+      "0.5": 10.160505,
+      "0.75": 10.950000000000001,
+      "0.9": 25.530581999999995
+    },
+    "gross_realized_funding_apr_pct": 11.797655763860371,
+    "threshold_episodes": {
+      "5%": {
+        "episodes": 704,
+        "median_funding_intervals": 2.0,
+        "median_hours": 16.0,
+        "p75_hours": 32.0,
+        "max_hours": 3784
+      },
+      "10%": {
+        "episodes": 463,
+        "median_funding_intervals": 2.0,
+        "median_hours": 16.0,
+        "p75_hours": 32.0,
+        "max_hours": 3784
+      },
+      "15%": {
+        "episodes": 158,
+        "median_funding_intervals": 2.0,
+        "median_hours": 16.0,
+        "p75_hours": 46.0,
+        "max_hours": 608
+      }
+    }
+  },
+  "since_2023": {
+    "records": 4017,
+    "positive_rate_pct": 86.25840179238237,
+    "negative_rate_pct": 13.741598207617626,
+    "zero_rate_pct": 0.0,
+    "apr_percentiles_pct": {
+      "0.25": 2.4188549999999998,
+      "0.5": 6.752865,
+      "0.75": 10.950000000000001,
+      "0.9": 10.950000000000001
+    },
+    "gross_realized_funding_apr_pct": 7.275968879761018,
+    "threshold_episodes": {
+      "5%": {
+        "episodes": 448,
+        "median_funding_intervals": 2.0,
+        "median_hours": 16.0,
+        "p75_hours": 26.0,
+        "max_hours": 2376
+      },
+      "10%": {
+        "episodes": 242,
+        "median_funding_intervals": 2.0,
+        "median_hours": 16.0,
+        "p75_hours": 24.0,
+        "max_hours": 1560
+      },
+      "15%": {
+        "episodes": 52,
+        "median_funding_intervals": 1.5,
+        "median_hours": 12.0,
+        "p75_hours": 34.0,
+        "max_hours": 472
+      }
+    }
+  }
+}

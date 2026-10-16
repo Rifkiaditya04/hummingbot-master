@@ -1,0 +1,13 @@
+Traceback (most recent call last):
+  File "D:\hummingbot\hummingbot-master\tmp_download_price_archives.py", line 69, in <module>
+    main()
+    ~~~~^^
+  File "D:\hummingbot\hummingbot-master\tmp_download_price_archives.py", line 60, in main
+    entry = download_verified(session, source, label)
+  File "D:\hummingbot\hummingbot-master\tmp_download_price_archives.py", line 37, in download_verified
+    temporary.replace(destination)
+    ~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^
+  File "C:\Users\User\miniconda3\envs\hummingbot\Lib\pathlib\_local.py", line 780, in replace
+    os.replace(self, target)
+    ~~~~~~~~~~^^^^^^^^^^^^^^
+PermissionError: [WinError 5] Access is denied: 'data\\research\\funding_rate_arbitrage\\raw\\mark\\BTCUSDT-1m-2025-04.part' -> 'data\\research\\funding_rate_arbitrage\\raw\\mark\\BTCUSDT-1m-2025-04.zip'

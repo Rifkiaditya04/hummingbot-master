@@ -1,0 +1,115 @@
+{
+  "scope": "Baseline observation only. No entry/exit episode, fee realization, or return simulation is performed.",
+  "funding_data": {
+    "first_time_utc": "2020-01-01T00:00:00+00:00",
+    "last_time_utc": "2026-08-31T16:00:00.001000+00:00",
+    "interval_hours_declared_unique": [
+      8
+    ]
+  },
+  "all_available": {
+    "funding_record_count": 7305,
+    "positive_rate_pct": 85.88637919233402,
+    "negative_rate_pct": 14.113620807665983,
+    "zero_rate_pct": 0.0,
+    "realized_apr_pct_percentiles": {
+      "p25": 2.948835,
+      "p50": 10.160505,
+      "p75": 10.95,
+      "p90": 25.530582
+    },
+    "rolling_3_realized_apr_pct_percentiles": {
+      "p25": 3.189004999999968,
+      "p50": 8.21395999999997,
+      "p75": 10.95,
+      "p90": 27.563558999999987
+    },
+    "gross_continuous_funding_apr_pct_of_futures_notional": 11.79765576386037,
+    "rolling_apr_threshold_episodes": {
+      "5": {
+        "episode_count": 325,
+        "median_duration_hours": 32.0,
+        "p75_duration_hours": 72.0,
+        "max_duration_hours": 3776.0
+      },
+      "10": {
+        "episode_count": 176,
+        "median_duration_hours": 28.0,
+        "p75_duration_hours": 66.0,
+        "max_duration_hours": 3768.0
+      },
+      "15": {
+        "episode_count": 78,
+        "median_duration_hours": 48.0,
+        "p75_duration_hours": 112.0,
+        "max_duration_hours": 696.0
+      }
+    }
+  },
+  "since_2023": {
+    "funding_record_count": 4017,
+    "positive_rate_pct": 86.25840179238237,
+    "negative_rate_pct": 13.741598207617626,
+    "zero_rate_pct": 0.0,
+    "realized_apr_pct_percentiles": {
+      "p25": 2.4188549999999998,
+      "p50": 6.752865,
+      "p75": 10.95,
+      "p90": 10.95
+    },
+    "rolling_3_realized_apr_pct_percentiles": {
+      "p25": 2.7951699999999775,
+      "p50": 6.3283699999999765,
+      "p75": 10.95,
+      "p90": 10.95
+    },
+    "gross_continuous_funding_apr_pct_of_futures_notional": 7.275968879761018,
+    "rolling_apr_threshold_episodes": {
+      "5": {
+        "episode_count": 200,
+        "median_duration_hours": 32.0,
+        "p75_duration_hours": 64.0,
+        "max_duration_hours": 2616.0
+      },
+      "10": {
+        "episode_count": 87,
+        "median_duration_hours": 24.0,
+        "p75_duration_hours": 60.0,
+        "max_duration_hours": 1568.0
+      },
+      "15": {
+        "episode_count": 24,
+        "median_duration_hours": 52.0,
+        "p75_duration_hours": 86.0,
+        "max_duration_hours": 464.0
+      }
+    }
+  },
+  "basis_pct_on_complete_price_events": {
+    "complete_event_count": 7274,
+    "censored_event_count": 31,
+    "mark_minus_spot_pct_percentiles": {
+      "p10": -0.05361475260909927,
+      "p25": -0.04580732931065368,
+      "p50": -0.0335138874904362,
+      "p75": 0.003833656795448,
+      "p90": 0.06072938372180777
+    },
+    "futures_execution_minus_spot_pct_percentiles": {
+      "p10": -0.057889194017881486,
+      "p25": -0.04944405011188338,
+      "p50": -0.0375197940442918,
+      "p75": 0.009056988286784775,
+      "p90": 0.07735516294855214
+    }
+  },
+  "fee_checkpoint": {
+    "base_round_trip_fee_pct_of_one_leg_notional": 0.3,
+    "base_round_trip_fee_pct_of_two_leg_capital_approx": 0.15,
+    "gross_continuous_funding_apr_pct_of_two_leg_capital_all_available": 5.898827881930185,
+    "gross_continuous_funding_apr_pct_of_two_leg_capital_since_2023": 3.637984439880509,
+    "break_even_hold_days_at_average_funding_all_available": 9.281504918581382,
+    "break_even_hold_days_at_average_funding_since_2023": 15.049542103538597,
+    "interpretation_limit": "This is a continuous-hold arithmetic checkpoint only. It excludes basis movement, negative funding during a position, censored events, spread, slippage, and actual threshold-driven turnover."
+  }
+}

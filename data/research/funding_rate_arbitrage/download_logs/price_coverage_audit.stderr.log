@@ -1,0 +1,35 @@
+Traceback (most recent call last):
+  File "pandas/_libs/parsers.pyx", line 1116, in pandas._libs.parsers.TextReader._convert_tokens
+TypeError: Cannot cast array data from dtype('O') to dtype('int64') according to the rule 'safe'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\hummingbot\hummingbot-master\tmp_audit_price_archives.py", line 107, in <module>
+    main()
+    ~~~~^^
+  File "D:\hummingbot\hummingbot-master\tmp_audit_price_archives.py", line 99, in main
+    "sources": {source: audit_source(source) for source in SOURCES},
+                        ~~~~~~~~~~~~^^^^^^^^
+  File "D:\hummingbot\hummingbot-master\tmp_audit_price_archives.py", line 40, in audit_source
+    timestamps = pd.read_csv(path, header=None, usecols=[0], dtype={0: "int64"}).iloc[:, 0].to_numpy()
+                 ~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\miniconda3\envs\hummingbot\Lib\site-packages\pandas\io\parsers\readers.py", line 873, in read_csv
+    return _read(filepath_or_buffer, kwds)
+  File "C:\Users\User\miniconda3\envs\hummingbot\Lib\site-packages\pandas\io\parsers\readers.py", line 306, in _read
+    return parser.read(nrows)
+           ~~~~~~~~~~~^^^^^^^
+  File "C:\Users\User\miniconda3\envs\hummingbot\Lib\site-packages\pandas\io\parsers\readers.py", line 1947, in read
+    ) = self._engine.read(  # type: ignore[attr-defined]
+        ~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        nrows
+        ^^^^^
+    )
+    ^
+  File "C:\Users\User\miniconda3\envs\hummingbot\Lib\site-packages\pandas\io\parsers\c_parser_wrapper.py", line 215, in read
+    chunks = self._reader.read_low_memory(nrows)
+  File "pandas/_libs/parsers.pyx", line 832, in pandas._libs.parsers.TextReader.read_low_memory
+  File "pandas/_libs/parsers.pyx", line 911, in pandas._libs.parsers.TextReader._read_rows
+  File "pandas/_libs/parsers.pyx", line 1009, in pandas._libs.parsers.TextReader._convert_column_data
+  File "pandas/_libs/parsers.pyx", line 1122, in pandas._libs.parsers.TextReader._convert_tokens
+ValueError: invalid literal for int() with base 10: 'open_time'
